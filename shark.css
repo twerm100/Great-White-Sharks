@@ -1,0 +1,24 @@
+body {
+	box-sizing: border-box;
+}
+p {
+	font-family:"Helvetica",Arial,san-serif;
+	font-size:1.5em;
+	font-weight:500;
+	padding: 2px 0px 5px 10px;
+	color:#ffffff;
+}
+ul {
+	padding: 5px 30px;
+	font-size:1.75em;
+}
+
+b {
+	color:#000000;
+}
+em {
+	color:#000000;
+}
+main {
+	background-color:#bbb;
+}
