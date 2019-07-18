@@ -1,24 +1,120 @@
 body {
-	box-sizing: border-box;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,a1dbff+100;Blue+3D+%2313 */
+background: rgb(240,249,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
 }
+
 p {
-	font-family:"Helvetica",Arial,san-serif;
+	font-family:"Myriad pro",Arial,sans-serif;
 	font-size:1.5em;
+	line-height: 1.75em
 	font-weight:500;
 	padding: 2px 0px 5px 10px;
 	color:#ffffff;
+	clear:left;
+	text-shadow: 2px 2px #000000;
+}
+h1 {
+	font-family:"Helvetica",Arial,san-serif;
+	text-align: center;
+	font-size:2em;
+	font-weight:900;
+	margin:auto;
+	padding: 40px 0px 40px ;
+	color:white;
+	background-image:url(360px-White_shark.jpg);
+	background-repeat: no-repeat;
+	background-size:1800px 1400px;
+	text-shadow: 2px 2px #000000;
+	border-radius:10px;
+
+}
+h2{
+	font-family:"Helvetica",Arial,san-serif;
+	text-align: center;
+	padding:0px 400px 0px 400px;
+	position: relative;
+ 	right: 200px;
+	font-size:2em;
+	font-weight:500;
+	color:#ffffff;
+	background-color:#000000;
+
+}
+h3{
+	font-family:"Helvetica",Arial,san-serif;
+	text-align: center;
+	font-size:1em;
+	font-weight:500;
+	margin:auto;
+	color:#ccc;
+	background-color:#ccc;
+}
+nav{
+	font-family:"Helvetica",Arial,san-serif;
+	font-size:1.25em;
+	font-weight:500;
+	margin:auto;
+	color:#ccc;
+	position: absolute;
+  	top: 90px;
 }
 ul {
-	padding: 5px 30px;
-	font-size:1.75em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  }
+li a:active {
+	background-color: #4CAF50;
+}
+
+li {
+  float: left;
+
+}
+
+
 b {
+	font-size:1.5em
 	color:#000000;
 }
 em {
+	font-size:1.5em
 	color:#000000;
 }
 main {
-	background-color:#bbb;
-}
+	background-image:url(360px-White_shark.jpg);
+	background-repeat: no-repeat;
+	background-size:1800px 1400px;
+	border-radius:10px;
+	}
+img {
+	border: 2px solid black;
+	margin-left:40px;
+	position: relative;
+ 	right: 30px;
+	float:right;
+	clear: left;
+} 
